@@ -1,0 +1,10 @@
+main: Robotnikman.AICore
+name: AI-Core
+version: ${project.version}
+description: An AI library for use with other plugins
+
+commands:
+   aicore:
+      description: AI-Core main command.
+      usage: /<command>
+      permission: aicore.admin

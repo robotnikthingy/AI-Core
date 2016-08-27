@@ -1,0 +1,20 @@
+#if true, the 4chan board scraper will be enabled which will
+#load the AI with content from 4chan. Support for other websites
+#like reddit coming later.
+boardscraper: true
+
+#boards from 4chan the bot with gather posts from
+boards:
+  - b
+#how many pages worth of threads which will be loaded into the brain
+#each value corresponds to the boards in the list above
+#do not go over 10. the larger the number the longer it takes to load
+boarddepths: 
+  - 10
+#how often (in hours) the chatbots brain will be updated with new content
+update-frequency: 12
+
+#If set the true, the AI will learn from players when they chat in game
+LearnFromChat: true
+
+debug: false
